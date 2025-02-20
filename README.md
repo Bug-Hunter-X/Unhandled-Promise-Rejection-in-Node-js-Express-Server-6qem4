@@ -1,0 +1,3 @@
+# Unhandled Promise Rejection in Node.js Express Server
+
+This repository demonstrates a common error in Node.js applications: unhandled promise rejections within asynchronous operations.  The server simulates an asynchronous task that may fail.  The initial implementation lacks proper error handling, which can lead to unexpected behavior or crashes. The solution shows how to properly handle these errors using `.catch()`.
